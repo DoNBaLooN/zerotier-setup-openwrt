@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # 1. Install ZeroTier
-opkg update && opkg install zerotier
+opkg install zerotier
 
 # 2. Enable ZeroTier
 ZT_CONF="/etc/config/zerotier"
